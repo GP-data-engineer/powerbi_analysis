@@ -1,4 +1,4 @@
-\# Power BI – Energy Cost Analysis steps
+# Power BI – Energy Cost Analysis steps
 
 
 
@@ -10,7 +10,7 @@ This document describes how to build the Power BI report based on the sample inv
 
 
 
-\## 1. Import data
+## 1. Import data
 
 
 
@@ -36,7 +36,7 @@ This document describes how to build the Power BI report based on the sample inv
 
 
 
-\## 2. Data cleaning in Power Query
+## 2. Data cleaning in Power Query
 
 
 
@@ -68,7 +68,7 @@ In Power Query:
 
 
 
-\## 3. Basic measures
+## 3. Basic measures
 
 
 
