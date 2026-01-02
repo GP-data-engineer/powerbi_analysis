@@ -1,4 +1,4 @@
-# 01. Energy Cost Analysis – Power BI Project
+# 01. Energy Cost Analysis – Power BI
 
 A simple analytical project built in Power BI using sample invoice data.
 The goal is to simulate a typical operational analytics task: validating invoice data, identifying anomalies, and preparing visual insights. 
