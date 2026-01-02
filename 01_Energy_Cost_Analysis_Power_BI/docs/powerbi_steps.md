@@ -1,13 +1,10 @@
 # Power BI – Energy Cost Analysis steps
 
 
-
 This document describes how to build the Power BI report based on the sample invoice data.
 
 
-
 ---
-
 
 
 ## 1. Import data
