@@ -11,9 +11,9 @@ This document describes how to build the Power BI report based on the sample inv
 
 
 
-1\. Open \*\*Power BI Desktop\*\*.
+1\. Open **Power BI Desktop**.
 
-2\. Click \*\*Get Data → Text/CSV\*\*.
+2\. Click **Get Data → Text/CSV**.
 
 3\. Select the file: `data/energy_invoices.csv`.
 
@@ -21,37 +21,33 @@ This document describes how to build the Power BI report based on the sample inv
 
 &nbsp;  - Column separators are recognized correctly (comma),
 
-&nbsp;  - Date columns are detected as \*\*Date\*\*,
+&nbsp;  - Date columns are detected as **Date**,
 
 &nbsp;  - Numeric columns use a dot (`.`) as decimal separator.
 
-5\. Click \*\*Transform Data\*\* to open \*\*Power Query\*\*.
-
+5\. Click **Transform Data** to open **Power Query**.
 
 
 ---
 
 
-
 ## 2. Data cleaning in Power Query
-
 
 
 In Power Query:
 
 
-
 1\. Verify data types:
 
-&nbsp;  - `InvoiceDate`, `PeriodStart`, `PeriodEnd` → \*\*Date\*\*
+&nbsp;  - `InvoiceDate`, `PeriodStart`, `PeriodEnd` → **Date**
 
-&nbsp;  - `kWh`, `TotalCost\_EUR`, `UnitPrice\_EUR\_kWh` → \*\*Decimal Number\*\*
+&nbsp;  - `kWh`, `TotalCost\_EUR`, `UnitPrice\_EUR\_kWh` → **Decimal Number**
 
-&nbsp;  - `IsEstimated` → \*\*Text\*\* or \*\*Boolean\*\*
+&nbsp;  - `IsEstimated` → **Text** or **Boolean**
 
 2\. Rename the query to: `Invoices`.
 
-3\. Optional: create a \*\*Month\*\* column:
+3\. Optional: create a **Month** column:
 
 &nbsp;  - Add Column → Date → Month → Start of Month (based on `InvoiceDate`).
 
@@ -60,20 +56,16 @@ In Power Query:
 4\. Close \& Apply to load data into the model.
 
 
-
 ---
-
 
 
 ## 3. Basic measures
 
 
-
-In the \*\*Report\*\* view, create the following measures in the `Invoices` table:
-
+In the **Report** view, create the following measures in the `Invoices` table:
 
 
-1\. \*\*Total kWh\*\*
+1\. **Total kWh**
 
 &nbsp;  ```DAX
 
