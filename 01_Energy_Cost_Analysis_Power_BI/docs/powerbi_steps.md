@@ -15,7 +15,7 @@ This document describes how to build the Power BI report based on the sample inv
 
 2\. Click \*\*Get Data → Text/CSV\*\*.
 
-3\. Select the file: `data/energy\_invoices.csv`.
+3\. Select the file: `data/energy_invoices.csv`.
 
 4\. Check that:
 
